@@ -1,9 +1,17 @@
 import React from "react";
 
+import Navbar from "./components/Navbar";
+import Page1 from "./components/Page1";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <div className="w-full flex justify-center bg-red-300">
-      <p className="tracking-wider text-2xl font-bold">Test</p>
+    <div className="">
+      <Navbar />
+      <body className="h-[400px] w-full flex justify-center items-center">
+        <Page1 />
+      </body>
+      <Footer />
     </div>
   );
 }
